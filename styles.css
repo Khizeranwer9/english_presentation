@@ -13,7 +13,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #151515;
-  background-image:url(https://cdn.prod.website-files.com/643d2eea03135260bdaca209/6585cbd47ce157b3cb7f24bf_ai-generated-face%20profile.webp);
+  background-image:url(https://pixelweavers.in/wp-content/uploads/2018/10/quantum-computing.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -29,9 +29,14 @@ body {
   align-items: center;
   transition: 0.5s;
   transition-delay: 0.5s;
+  margin-top:55px;
 }
 .card:hover {
-  width: 600px;
+  width: 700px;
+  height:400px;
+  
+  margin-right:3rem;
+  margin-bottom:2rem;
   transition-delay: 0.5s;
 }
 .card .circle {
@@ -87,26 +92,66 @@ body {
 }
 .card:hover .product_img {
   transition-delay: 0.75s;
-  top: 55%;
-  left: 82%;
+  top: 60%;
+  left: 75%;
   height: 320px;
-  transform: translate(-50%, -50%) scale(1) rotate(15deg);
+  transform: translate(-50%, -50%) scale(1.2) rotate(14deg);
+  font-size: 20px;
+            color: #fff;
+           
+            border: 2px solid #fff;
+            border-radius: 8px;
+            text-transform: uppercase;
+           
+            
+            box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fd7015, 0 0 40px #fd7015, 0 0 50px #fd7015;
+            transition: all 2s ease;
+        
+
+       
+            box-shadow: 0 0 20px #fff, 0 0 30px #fd7015, 0 0 40px #fd7015, 0 0 50px #fd7015;
+            text-shadow: 0 0 5px #fd7015, 0 0 10px #fd7015, 0 0 15px #fd7015;
+        
 }
 .card .content {
   position: absolute;
   width: 60%;
   left: 10%;
+ 
   padding: 20px 20px 20px 20px;
   opacity: 0;
   transition: 0.5s;
   visibility: hidden;
+ 
+ 
+        
+           
+            font-size: 20px;
+            color: #fff;
+           
+            border: 2px solid #fff;
+            border-radius: 8px;
+            text-transform: uppercase;
+           
+            
+            box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fd7015, 0 0 40px #fd7015, 0 0 50px #fd7015;
+            transition: all 2s ease;
+        
+
+       
+            box-shadow: 0 0 20px #fff, 0 0 30px #fd7015, 0 0 40px #fd7015, 0 0 50px #fd7015;
+            text-shadow: 0 0 5px #fd7015, 0 0 10px #fd7015, 0 0 15px #fd7015;
+        
+  
+
 }
 .card:hover .content {
   transition-delay: 0.75s;
   opacity: 1;
   visibility: visible;
   left: 3px;
-  margin-top: 15px;
+  margin-top: 30px;
+  
 }
 .card .content h2 {
   color: white;
